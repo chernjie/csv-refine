@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "csv-refine",
+  "version": "0.0.1",
+  "description": "csv-refine is a lightweight Node.js utility for processing and refining CSV files. It provides features such as date format correction, argument parsing, and customizable options for sorting and transforming CSV data.",
+  "main": "csv-refine.js",
+  "bin": {
+    "csv-refine": "csv-refine.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chernjie/csv-refine"
+  },
+  "author": {
+    "name": "CJ",
+    "email": "lim@chernjie.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "hashable-cli": "^2.0.1",
+    "json2csv": "^5.0.7"
+  }
+}
